@@ -5,7 +5,7 @@ import { contactInfo } from '../data';
 import profileImage from './Profile.jpg'; // ✅ Must be relative to this file
 
 export const Hero: React.FC = () => {
-  const roles = ['FOUNDER & CEO','Developer', 'Student', 'Designer'];
+  const roles = ['FOUNDER & CEO','Developer', 'Designer'];
   const [displayedText, setDisplayedText] = useState('');
   const [roleIndex, setRoleIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
